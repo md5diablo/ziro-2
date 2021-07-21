@@ -14,7 +14,14 @@ body {
     max-width: 375px;
     background: var(--Very-light-gray);
 }
+.container {
+    position: relative;
+}
 .cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(20%,30%);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 0;
