@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(20%,30%);
+    transform: translate(25%,32%);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 0;
@@ -31,8 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     padding:30px;
-    width: 300px;
-    height: 430px;
+    width: 400px;
+    height: 530px;
 }
 .sedans {
     background: var(--Bright-orange);
